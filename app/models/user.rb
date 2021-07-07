@@ -9,4 +9,8 @@ class User < ApplicationRecord
          validates :nickname
          validates :profile
   end
+
+  def remember_me
+    true
+  end
 end
