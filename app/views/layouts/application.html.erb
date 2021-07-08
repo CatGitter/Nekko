@@ -10,6 +10,19 @@
   </head>
 
   <body>
+    <header class="header">
+      <div class="title">Nekko</div>
+      <% if user_signed_in? %>
+        <div class="head__right">
+          <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :head__logout %>
+          <%= link_to "New Cat", "#", class: :head__nc %>
+      <% else %>
+          <%= link_to "ログイン", new_user_session_path, class: :head__login %>
+          <%= link_to "新規登録", new_user_registration_path, class: :head__nl %>
+      <% end %>
+    </header>
     <%= yield %>
+    <footer class="footer">
+    </footer>
   </body>
 </html>
