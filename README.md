@@ -80,8 +80,8 @@ VSCode
 | ------------- | ---------- | ------------------------------ |
 | name          | string     | null: false                    |
 | age           | string     | null: false                    |
+| breed         | string     | null: false                    |
 | prefecture_id | integer    | null: false                    |
-| breed_id      | integer    | null: false                    |
 | sex_id        | integer    | null: false                    |
 | vaccine_id    | integer    | null: false                    |
 | castration_id | integer    | null: false                    |
