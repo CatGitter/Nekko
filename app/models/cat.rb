@@ -1,5 +1,5 @@
 class Cat < ApplicationRecord
-  extend ActiveHash::Association::ActiveRecordExtensions
+  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :prefecture
   belongs_to :sex
   belongs_to :vaccine
