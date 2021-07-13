@@ -1,1 +1,39 @@
-<div>cat</div>
+<div class="main">
+  <div class="title-contents">
+    <h2 class="list-title">
+      猫ちゃん一覧
+    </h2>
+  </div>
+
+  <%# 紹介された猫の一覧表示 %>
+  <ul class='cat-lists'>
+    <% @cats.each do |cat| %>
+      <li class='list'>
+        <%= link_to '#' do %>
+          <div class='cat-image-content'>
+            <%= image_tag cat.image, style: "max-height: 200px", class: "cat-img" %>
+          </div>
+        <% end %>
+
+        <div class='cat-info'>
+          <h3 class='cat-index-name'>
+            <span><%= cat.name %></span>
+          </h3>
+          <p class='cat-index-age'>
+            <%= cat.age %>
+          </p>
+          <p class='cat-index-breed'>
+            <%= cat.breed %>
+          </p>
+          <p class='cat-index-sex'>
+            <%= cat.sex[:name] %>
+          </p>
+          <p class='cat-index-prefecture'>
+            <%= cat.prefecture[:name] %>
+          </p>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+  <%# /紹介された猫の一覧表示%>
+</div>

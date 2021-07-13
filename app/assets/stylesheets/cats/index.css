@@ -1,0 +1,22 @@
+/* 投稿一覧 */
+.cat-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  list-style: none;
+  padding: 0 10px;
+}
+
+
+.cat-info {
+  height: 30vh;
+  font-size: 0.95vw;
+}
+.cat-index-name {
+  font-size: 2.2vh;
+  width: 27vh;
+}
+
+/* //投稿一覧 */
