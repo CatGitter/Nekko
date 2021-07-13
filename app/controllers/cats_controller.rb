@@ -2,7 +2,7 @@ class CatsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create]
 
   def index
-
+    @cats = Cat.all.order("created_at DESC")
   end
 
   def new
