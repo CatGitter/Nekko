@@ -1,7 +1,7 @@
 class CatsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update]
-  before_action :in_cat, only: [:show, :edit, :update]
-  before_action :move_index, only: [:edit, :update]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update ,:destroy]
+  before_action :in_cat, only: [:show, :edit, :update, :destroy]
+  before_action :move_index, only: [:edit, :update, :destroy]
   
 
   def index
@@ -32,6 +32,12 @@ class CatsController < ApplicationController
       redirect_to cat_path
     else
       render :edit
+    end
+  end
+
+  def destroy
+    if @cat.destroy
+      redirect_to root_path
     end
   end
 
