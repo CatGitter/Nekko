@@ -1,0 +1,58 @@
+<%# 猫の詳細 %>
+<div class="cat-show">
+  <div class="cat-box">
+    <h2 class="cat-show-name">
+      <%= @cat.name %>
+    </h2>
+    <div class="cat-show-image">
+      <%= image_tag @cat.image, class: "cat-box-image" %>
+    </div>
+    <div class="exp-ni-main">
+      <dl class="exp-ni-body">
+        <dt class="show-title">年齢</dt>
+        <dd class="show-content" ><%= @cat.age %></dd>
+
+        <dt class="show-title">種類</dt>
+        <dd class="show-content"><%= @cat.breed %></dd>
+
+        <dt class="show-title">所在地</dt>
+        <dd class="show-content"><%= @cat.prefecture[:name] %></dd>
+
+        <dt class="show-title">性別</dt>
+        <dd class="show-content"><%= @cat.sex[:name] %></dd>
+
+        <dt class="show-title">ワクチン接種状況</dt>
+        <dd class="show-content"><%= @cat.vaccine[:name] %></dd>
+
+        <dt class="show-title">去勢の有無</dt>
+        <dd class="show-content"><%= @cat.castration[:name] %></dd>
+
+        <dt class="show-title">性格</dt>
+        <dd class="show-content"><%= @cat.personality %></dd>
+
+        <dt class="show-title">健康状態</dt>
+        <dd class="show-content"><%= @cat.health %></dd>
+
+        <dt class="show-title">引き渡し方法</dt>
+        <dd class="show-content"><%= @cat.adopt_method %></dd>
+
+        <dt class="show-title">備考</dt>
+        <dd class="show-content"><%= @cat.remarks %></dd>
+      </dl>
+    </div>
+
+    <%# 編集・削除・チャットボタン %>
+    <div class="show-btn">
+      <% if user_signed_in? %>
+        <% if current_user.id == @cat.user_id %>
+          <%= link_to "編集", '#', class:"edit-btn" %>
+          <%= link_to "削除", '#', class:"delete-btn", method: :delete %>
+        <% else %>
+          <%= link_to "チャットする", '#', class: "chat-btn" %>
+        <% end %>
+      <% end %>
+    </div>
+    <%# //編集・削除・チャットボタン %>
+  </div>
+</div>
+<%# //猫の詳細 %>

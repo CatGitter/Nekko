@@ -2,6 +2,7 @@
 .cat-lists {
   display: flex;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .list {
@@ -9,6 +10,10 @@
   padding: 0 10px;
 }
 
+.link-to-list {
+  color: black;
+  text-decoration: none;
+}
 
 .cat-info {
   height: 30vh;
