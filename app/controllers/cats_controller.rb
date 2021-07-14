@@ -18,6 +18,10 @@ class CatsController < ApplicationController
     end
   end
 
+  def show
+    @cat = Cat.find(params[:id])
+  end
+
   private
 
   def cat_params

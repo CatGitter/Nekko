@@ -9,12 +9,10 @@
   <ul class='cat-lists'>
     <% @cats.each do |cat| %>
       <li class='list'>
-        <%= link_to '#' do %>
+        <%= link_to cat_path(cat.id), class: 'link-to-list' do %>
           <div class='cat-image-content'>
             <%= image_tag cat.image, style: "max-height: 200px", class: "cat-img" %>
           </div>
-        <% end %>
-
         <div class='cat-info'>
           <h3 class='cat-index-name'>
             <span><%= cat.name %></span>
@@ -32,6 +30,7 @@
             <%= cat.prefecture[:name] %>
           </p>
         </div>
+        <% end %>
       </li>
     <% end %>
   </ul>

@@ -1,0 +1,48 @@
+.cat-show {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cat-box {
+  text-align: center;
+}
+
+.cat-box-image {
+  max-height: 100vh;
+  max-width: 35vw;
+  min-height: 300px;
+}
+
+.exp-ni-main {
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.exp-ni-body {
+  width: 50vw;
+}
+
+.show-title {
+  width: 180px;
+  margin: 4px 0;
+  font-size: 21px;
+  color: rgb(93, 184, 123);
+  font-weight: bold;
+  text-align: left;
+}
+
+.show-content {
+  max-width: 400px;
+  margin: auto 200px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
