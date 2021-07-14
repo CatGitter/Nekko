@@ -1,4 +1,15 @@
 /* 投稿一覧 */
+.header{
+  background-color: rgb(245, 239, 239);
+}
+
+.title {
+  font-family: 'Merienda One', cursive;
+  font-size: 43px;
+  color:rgb(247, 188, 100);
+  text-decoration: none;
+
+}
 .cat-lists {
   display: flex;
   flex-wrap: wrap;

@@ -11,7 +11,7 @@
 
   <body>
     <header class="header">
-      <h1 class="title">Nekko</h1>
+      <%=link_to "Nekko", root_path, class:"title" %>
       <% if user_signed_in? %>
         <div class="head__right">
           <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: :head__logout %>
