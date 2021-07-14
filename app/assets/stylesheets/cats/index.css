@@ -8,8 +8,12 @@
   font-size: 43px;
   color:rgb(247, 188, 100);
   text-decoration: none;
-
 }
+
+.current-user {
+  padding-left: 80vw;
+}
+
 .cat-lists {
   display: flex;
   flex-wrap: wrap;
