@@ -39,10 +39,10 @@
   text-align: left;
 }
 
+.edit-btn {
+  text-decoration: none;
+}
 
-
-
-
-
-
-
+.delete-btn {
+  text-decoration: none;
+}
