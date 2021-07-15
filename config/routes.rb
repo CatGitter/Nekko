@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'cats/index'
   root to: "cats#index"
   resources :cats, only: [:new, :create, :show, :edit, :update, :destroy]
+  resources :users, only: [:show]
 end
