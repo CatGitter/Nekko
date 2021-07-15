@@ -17,7 +17,7 @@
           <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class:"head-logout" %>
           <%= link_to "New Cat", new_cat_path, class:"head-nc" %>
           <%# ログイン時は、ログインしているユーザー名を表示 %>
-          <%= link_to "Hello! #{current_user.nickname}", '#', class:"current-user" %>
+          <%= link_to "Hello! #{current_user.nickname}", user_path(current_user.id), class:"current-user" %>
           <%# //ログイン時は、ログインしているユーザー名を表示 %>
       <% else %>
           <%= link_to "ログイン", new_user_session_path, class:"head-login" %>

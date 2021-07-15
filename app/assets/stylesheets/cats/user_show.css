@@ -1,0 +1,31 @@
+.user {
+  background-color: rgb(238, 234, 234);
+}
+
+.profile-title {
+  width: 125px;
+  display: flex;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(19, 90, 245);
+  
+}
+
+.post-log {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-log-title {
+  width: 25vw;
+  color: white;
+  background-color:rgba(188, 240, 210, 0.904);
+  padding-left: 5px;
+  border-radius: 3em;
+}
+
+.log-image {
+  padding: 0 5px;
+}

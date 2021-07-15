@@ -1,0 +1,29 @@
+<div class="user">
+  <div class="user-wrapper">
+    <h2 class="user-nickname">
+      <%= "#{@user.nickname}さんの詳細" %>
+    </h2>
+    <div class="user-profile">
+      <div class="profile-title">
+        profile
+      </div>
+      <div class="user-profile-content">
+        <%= @user.profile %>
+      </div>
+    <div>
+
+    <h2 class="post-log-title">
+      <%= "#{@user.nickname}さんが紹介している猫ちゃん達" %>
+    </h2>
+
+    <div class="post-log">
+      <% @cats.each do |cat| %>
+        <%= link_to cat_path(cat.id), class: 'link-to-list' do %>
+          <div class="log-list">
+            <%= image_tag cat.image, class:'log-image', :size => '155x160' %>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
