@@ -6,7 +6,7 @@ class User < ApplicationRecord
 
          has_many :cats
 
-         validates :password, format: { with:/\A(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)[a-zA-Z\d]+\z/ }
+         validates :password, on: :create, format: { with:/\A(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)[a-zA-Z\d]+\z/ }
   with_options presence: true do
          validates :nickname
          validates :profile
@@ -14,5 +14,17 @@ class User < ApplicationRecord
 
   def remember_me
     true
+  end
+
+  def update_without_current_password(params, *options)
+    params.delete(:current_password)
+    if params[:password].blank? && params[:password_confrmation].blank?
+      params.delete(:password)
+      params.delete(:password_confrmation)
+    end
+
+  result = update_attributes(params, *options)
+  clean_up_passwords
+  result
   end
 end
