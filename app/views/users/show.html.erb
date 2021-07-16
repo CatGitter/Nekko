@@ -3,6 +3,13 @@
     <h2 class="user-nickname">
       <%= "#{@user.nickname}さんの詳細" %>
     </h2>
+
+    <%# ユーザー情報編集ボタン %>
+    <% if user_signed_in? && current_user.id == @user.id %>
+      <%= link_to "ユーザー情報編集", edit_user_registration_path, class:"user-edit-btn" %>
+    <% end %>
+    <%# //ユーザー情報編集ボタン %>
+
     <div class="user-profile">
       <div class="profile-title">
         profile
