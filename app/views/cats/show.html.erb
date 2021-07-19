@@ -47,10 +47,11 @@
         <% if current_user.id == @cat.user_id %>
           <%= link_to "編集", edit_cat_path, class:"edit-btn" %>
           <%= link_to "削除", cat_path, class:"delete-btn", method: :delete %>
+          <%= link_to "チャットする", chat_path(@cat.user_id), class: "chat-btn" %>
         <% else %>
           <%= link_to " #{@cat.user.nickname}", user_path(@cat.user_id), class:"user-detail" %>
           <div class="to">と</div>
-          <%= link_to "チャットする", '#', class: "chat-btn" %>
+          <%= link_to "チャットする", chat_path(@cat.user_id), class: "chat-btn" %>
         <% end %>
       <% end %>
     </div>

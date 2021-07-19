@@ -72,7 +72,7 @@ VSCode
 - has_many :cats
 - has_many :room_users
 - has_many :rooms, through: :room_users
-- has_many :messages
+- has_many :chats
 
 ## catsテーブル
 
@@ -104,7 +104,7 @@ VSCode
 
 - has_many :room_users, dependent: :destroy
 - has_many :users, through: :room_users
-- has_many :messages, dependent: :destroy
+- has_many :chats, dependent: :destroy
 
 # room_usersテーブル
 
@@ -117,7 +117,7 @@ VSCode
 - belongs_to :room
 - belongs_to :user
 
-## messagesテーブル
+## chatsテーブル
 
 | Column        | Type       | Options                        |
 | ------------- | ---------- | ------------------------------ |
