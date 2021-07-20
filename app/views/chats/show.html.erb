@@ -1,0 +1,24 @@
+<%= form_with model: @chat, id:"form" do |f| %>
+    <%= f.text_field :content, id: "content" %>
+    <%= f.hidden_field :room_id %>
+    <%= f.submit value: "送信する", class:"chat-btn", id: "submit" %>
+<% end %>
+
+<div id="list">
+</div>
+<table class="chat-table">
+  <thead>
+    <tr>
+      <td>投稿者名</td>
+      <td>投稿内容</td>
+    </tr>
+  </thead>
+<tbody>
+  <% @chats.each do |chat| %>
+    <tr>
+      <td><%= chat.user.nickname %></td>
+      <td><%= chat.content %></td>
+    </tr>
+  <% end %>
+</tbody>
+</table>
