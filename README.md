@@ -7,6 +7,7 @@ Nekko
 猫を飼いたい人と引き渡したい人を繋ぐアプリケーションです。飼いたい人は、トップページの一覧から気になる猫を探し、その猫を保護している人とチャットでやり取りすることができます。一方で猫を引き渡したい人は、新規投稿画面から猫の情報を入力することで、トップページに情報を発信することができます。
 
 # 本番環境
+http://13.230.7.134/
 
 # 制作背景(意図)
 私の家では現在、知人から譲り受けた2匹の猫を飼っています。前々から猫を飼うことは家族間で話していたのですが、ペットショップでお金を払って飼うことに抵抗がありました。また、せっかく飼うなら福祉的な観点からも貢献したいと思っていました。そんな時、たまたま知人の家で子猫が生まれたことを聞き、譲り受けることを決意したのです。
@@ -70,8 +71,8 @@ VSCode
 ### Association
 
 - has_many :cats
-- has_many :room_users
-- has_many :rooms, through: :room_users
+- has_many :user_rooms
+- has_many :rooms, through: :user_rooms
 - has_many :chats
 
 ## catsテーブル
@@ -102,11 +103,11 @@ VSCode
 
 ### Association
 
-- has_many :room_users, dependent: :destroy
-- has_many :users, through: :room_users
+- has_many :user_rooms, dependent: :destroy
+- has_many :users, through: :user_rooms
 - has_many :chats, dependent: :destroy
 
-# room_usersテーブル
+# user_roomsテーブル
 
 | Column        | Type       | Options                        |
 | ------------- | ---------- | ------------------------------ |

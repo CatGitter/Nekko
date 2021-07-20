@@ -6,7 +6,7 @@ class User < ApplicationRecord
 
          has_many :cats
          has_many :user_rooms
-         has_many :rooms, through: :room_users
+         has_many :rooms, through: :user_rooms
          has_many :chats
 
          validates :password, on: :create, format: { with:/\A(?=.*?[a-z])(?=.*?[A-Z])(?=.*?\d)[a-zA-Z\d]+\z/ }
