@@ -41,30 +41,30 @@ http://13.230.7.134/
  なお、本番環境では一定時間経過すると画像が表示されなくなりますので、ご注意ください。
 
 
-### 新規登録ページ
+### :ballot_box_with_check: 新規登録ページ
 ![55cdfcd327dee6551498b18989365b5f](https://user-images.githubusercontent.com/84962058/126437941-73b4eea2-d33d-43c8-ac2f-3568c554141e.gif)
 
-### 新規猫ちゃん投稿ページ
+### :ballot_box_with_check: 新規猫ちゃん投稿ページ
 ![81fa6b1ffbd9af4d40927bf642bd6afb](https://user-images.githubusercontent.com/84962058/126438271-a625b37b-1e41-4a0c-b3a8-ce5096d33a97.gif)
 
-### 猫ちゃん詳細ページ
+### :ballot_box_with_check: 猫ちゃん詳細ページ
 ![f761dc08f9bc51368be27472810487e1](https://user-images.githubusercontent.com/84962058/126438570-b69a6ffb-1d9e-4c04-9989-9083064fddc5.gif)
 
-### 猫ちゃん詳細編集ページ
+### :ballot_box_with_check: 猫ちゃん詳細編集ページ
 ![e19c2922c802a504169e59a2def2f945](https://user-images.githubusercontent.com/84962058/126438816-6d2fb39f-7cf7-4580-9c70-826da29d9ece.gif)
 
-### 投稿削除機能
+### :ballot_box_with_check: 投稿削除機能
 ![43c5f1464e80fec7e4d80c00e5f1f016](https://user-images.githubusercontent.com/84962058/126439309-6eb01ad6-8492-43e4-925c-0db753f30594.gif)
 
-### ユーザー詳細ページ
+### :ballot_box_with_check: ユーザー詳細ページ
 <img width="1440" alt="スクリーンショット 2021-07-21 15 12 51" src="https://user-images.githubusercontent.com/84962058/126440399-347698f8-cdf3-46fd-a429-111da7154b87.png">
 
 
-### ユーザー詳細編集ページ（パスワードを除く）
+### :ballot_box_with_check: ユーザー詳細編集ページ（パスワードを除く）
 ![c7159acb997125e933a4985a28777cb7](https://user-images.githubusercontent.com/84962058/126440238-ae030331-a7da-40ef-b68e-6561be00e59f.gif)
 
 
-### チャットページ
+### :ballot_box_with_check: チャットページ
 ![b3bbdaf361a9b478bbedb86be75efe78](https://user-images.githubusercontent.com/84962058/126439599-d3917c8f-8476-47f8-a165-869ad06a9486.gif)
 
 # :bowtie: 工夫したポイント
