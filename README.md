@@ -1,3 +1,5 @@
+[https://gyazo.com/fa8c47e359711689f64115c20b2c14cb]() 
+
 # :smirk_cat: アプリ名
 ## Nekko
 ネットで猫を譲りたい人・引き取りたい人を繋ぐ意を込めました。（ Nekko = Neko + Net ）
