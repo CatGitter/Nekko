@@ -1,8 +1,7 @@
 ![fa8c47e359711689f64115c20b2c14cb](https://user-images.githubusercontent.com/84962058/126427033-ac84ed41-a563-48a7-a437-577614e1705f.gif)
-::: note
 ※ローカル環境下での撮影のため、本番環境とは異なる表示です。  
  なお、本番環境では一定時間経過すると画像が表示されなくなりますので、ご注意ください。
-:::
+
 
 # :smirk_cat: アプリ名
 ## Nekko
@@ -34,10 +33,9 @@ http://13.230.7.134/
 <img width="1075" alt="スクリーンショット 2021-07-21 12 55 46" src="https://user-images.githubusercontent.com/84962058/126428501-5ef3a806-ac48-40d1-a608-e8896f81d6fd.png">
 
 # :mag: DEMO
-::: note
 ※ローカル環境下での撮影のため、本番環境とは異なる表示です。  
  なお、本番環境では一定時間経過すると画像が表示されなくなりますので、ご注意ください。
-:::
+
 
 ### 新規登録ページ
 ![55cdfcd327dee6551498b18989365b5f](https://user-images.githubusercontent.com/84962058/126437941-73b4eea2-d33d-43c8-ac2f-3568c554141e.gif)
