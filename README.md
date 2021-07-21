@@ -53,6 +53,7 @@ http://13.230.7.134/
 
 
 ### ユーザー詳細編集ページ（パスワードを除く）
+![c7159acb997125e933a4985a28777cb7](https://user-images.githubusercontent.com/84962058/126440238-ae030331-a7da-40ef-b68e-6561be00e59f.gif)
 
 
 ### チャットページ
