@@ -15,11 +15,11 @@ http://13.230.7.134/
 ログイン情報
 
 - テストアカウント①  
-メールアドレス：test@test.com
+メールアドレス：test@test.com  
    パスワード：111aaA
 
 - テストアカウント②  
-メールアドレス：aiueo@aui.com
+メールアドレス：aiueo@aui.com  
    パスワード：111aaA
 
 # :scroll: 制作背景（意図）
