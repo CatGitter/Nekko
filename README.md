@@ -47,7 +47,7 @@ http://13.230.7.134/
 ![e19c2922c802a504169e59a2def2f945](https://user-images.githubusercontent.com/84962058/126438816-6d2fb39f-7cf7-4580-9c70-826da29d9ece.gif)
 
 ### 投稿削除機能
-
+![43c5f1464e80fec7e4d80c00e5f1f016](https://user-images.githubusercontent.com/84962058/126439309-6eb01ad6-8492-43e4-925c-0db753f30594.gif)
 
 ### ユーザー詳細ページ
 
