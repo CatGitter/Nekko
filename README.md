@@ -25,7 +25,7 @@ http://13.230.7.134/
 メールアドレス：aiueo@aui.com  
    パスワード：111aaA
 
-# 使用法
+# :arrow_down: 使用法
 <code> $ git clone https://github.com/CatGitter/Nekko.git </code>
 
 # :scroll: 制作背景（意図）
