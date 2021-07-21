@@ -37,6 +37,9 @@ http://13.230.7.134/
 ### 新規登録ページ
 ![55cdfcd327dee6551498b18989365b5f](https://user-images.githubusercontent.com/84962058/126437941-73b4eea2-d33d-43c8-ac2f-3568c554141e.gif)
 
+### 新規猫ちゃん投稿ページ
+![81fa6b1ffbd9af4d40927bf642bd6afb](https://user-images.githubusercontent.com/84962058/126438271-a625b37b-1e41-4a0c-b3a8-ce5096d33a97.gif)
+
 ### 猫ちゃん詳細ページ
 
 
