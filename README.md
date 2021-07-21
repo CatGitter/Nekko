@@ -41,7 +41,7 @@ http://13.230.7.134/
 ![81fa6b1ffbd9af4d40927bf642bd6afb](https://user-images.githubusercontent.com/84962058/126438271-a625b37b-1e41-4a0c-b3a8-ce5096d33a97.gif)
 
 ### 猫ちゃん詳細ページ
-
+![f761dc08f9bc51368be27472810487e1](https://user-images.githubusercontent.com/84962058/126438570-b69a6ffb-1d9e-4c04-9989-9083064fddc5.gif)
 
 ### 猫ちゃん詳細編集ページ
 
