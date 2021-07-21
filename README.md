@@ -1,4 +1,4 @@
-https://gyazo.com/84abf012433933bb7544e0918571804d
+![](https://i.gyazo.com/84abf012433933bb7544e0918571804d.jpg)
 
 # :smirk_cat: アプリ名
 ## Nekko
