@@ -80,13 +80,13 @@ http://13.230.7.134/
 Ruby, Ruby on rails
 
 ## フロントエンド
-Scss,JavaScript, Ajax
+Scss, JavaScript, Ajax
 
 ## データベース
 MySQL, SequelPro
 
 ## インフラ
-AWS(EC2),Capistrano
+AWS(EC2), Capistrano
 
 ## Webサーバー（本番環境）
 Nginx
