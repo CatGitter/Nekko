@@ -44,7 +44,7 @@ http://13.230.7.134/
 ![f761dc08f9bc51368be27472810487e1](https://user-images.githubusercontent.com/84962058/126438570-b69a6ffb-1d9e-4c04-9989-9083064fddc5.gif)
 
 ### 猫ちゃん詳細編集ページ
-
+![e19c2922c802a504169e59a2def2f945](https://user-images.githubusercontent.com/84962058/126438816-6d2fb39f-7cf7-4580-9c70-826da29d9ece.gif)
 
 ### 投稿削除機能
 
