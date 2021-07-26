@@ -1,4 +1,4 @@
-![fa8c47e359711689f64115c20b2c14cb](https://user-images.githubusercontent.com/84962058/126427033-ac84ed41-a563-48a7-a437-577614e1705f.gif)
+![bd5f587aebc1092d46c09e9653dc3740](https://user-images.githubusercontent.com/84962058/126744595-fea8b4c6-1f81-47f5-9dd8-201bb5d38d55.gif)
 :small_red_triangle_down:ローカル環境下での撮影のため、本番環境とは異なる表示です。  
  なお、本番環境では一定時間経過すると画像が表示されなくなりますので、ご注意ください。
 
